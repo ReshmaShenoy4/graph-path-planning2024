@@ -1,0 +1,225 @@
+comment,baseline makespan,your solution makespan,your solution exec. time,initial test,move test,makespan test,obstacle test,hauler test,charging test,mission test
+Part1,
+0-Easy,
+    Mission length=4,
+1,31,31,161,True,True,True,True,True,True,True
+2,31,31,155,True,True,True,True,True,True,True
+3,14,14,178,True,True,True,True,True,True,True
+4,38,38,155,True,True,True,True,True,True,True
+5,49,49,179,True,True,True,True,True,True,True
+    Mission length=6,
+1,43,43,172,True,True,True,True,True,True,True
+2,42,42,150,True,True,True,True,True,True,True
+3,55,55,162,True,True,True,True,True,True,True
+4,61,61,207,True,True,True,True,True,True,True
+5,41,41,193,True,True,True,True,True,True,True
+    Mission length=8,
+1,80,80,203,True,True,True,True,True,True,True
+2,52,52,151,True,True,True,True,True,True,True
+3,63,63,167,True,True,True,True,True,True,True
+4,64,64,148,True,True,True,True,True,True,True
+5,59,59,165,True,True,True,True,True,True,True
+    Mission length=10,
+1,107,107,161,True,True,True,True,True,True,True
+2,122,122,160,True,True,True,True,True,True,True
+3,89,89,194,True,True,True,True,True,True,True
+4,96,96,155,True,True,True,True,True,True,True
+5,48,48,150,True,True,True,True,True,True,True
+    Mission length=12,
+1,83,83,180,True,True,True,True,True,True,True
+2,96,96,202,True,True,True,True,True,True,True
+3,86,86,168,True,True,True,True,True,True,True
+4,104,106,161,True,True,True,True,True,True,True
+5,102,102,163,True,True,True,True,True,True,True
+    Mission length=14,
+1,131,131,164,True,True,True,True,True,True,True
+2,125,125,218,True,True,True,True,True,True,True
+3,104,104,182,True,True,True,True,True,True,True
+4,140,140,195,True,True,True,True,True,True,True
+5,107,107,179,True,True,True,True,True,True,True
+1-Medium,
+    Mission length=4,
+1,40,40,174,True,True,True,True,True,True,True
+2,22,22,159,True,True,True,True,True,True,True
+3,51,51,217,True,True,True,True,True,True,True
+4,30,30,173,True,True,True,True,True,True,True
+5,36,36,174,True,True,True,True,True,True,True
+    Mission length=6,
+1,45,45,165,True,True,True,True,True,True,True
+2,32,32,231,True,True,True,True,True,True,True
+3,43,43,175,True,True,True,True,True,True,True
+4,35,35,200,True,True,True,True,True,True,True
+5,86,86,150,True,True,True,True,True,True,True
+    Mission length=8,
+1,73,73,160,True,True,True,True,True,True,True
+2,55,55,165,True,True,True,True,True,True,True
+3,69,69,174,True,True,True,True,True,True,True
+4,75,75,160,True,True,True,True,True,True,True
+5,54,54,169,True,True,True,True,True,True,True
+    Mission length=10,
+1,83,83,171,True,True,True,True,True,True,True
+2,79,79,169,True,True,True,True,True,True,True
+3,91,91,172,True,True,True,True,True,True,True
+4,92,92,157,True,True,True,True,True,True,True
+5,91,91,161,True,True,True,True,True,True,True
+    Mission length=12,
+1,136,136,166,True,True,True,True,True,True,True
+2,106,106,162,True,True,True,True,True,True,True
+3,89,89,170,True,True,True,True,True,True,True
+4,112,112,202,True,True,True,True,True,True,True
+5,102,102,159,True,True,True,True,True,True,True
+    Mission length=14,
+1,122,122,218,True,True,True,True,True,True,True
+2,102,102,163,True,True,True,True,True,True,True
+3,93,93,168,True,True,True,True,True,True,True
+4,126,126,186,True,True,True,True,True,True,True
+5,135,135,168,True,True,True,True,True,True,True
+2-Hard,
+    Mission length=4,
+1,43,53,228,True,True,True,True,True,True,True
+2,27,27,201,True,True,True,True,True,True,True
+3,28,28,169,True,True,True,True,True,True,True
+4,27,27,181,True,True,True,True,True,True,True
+5,44,44,173,True,True,True,True,True,True,True
+    Mission length=6,
+1,63,63,154,True,True,True,True,True,True,True
+2,52,52,175,True,True,True,True,True,True,True
+3,64,64,175,True,True,True,True,True,True,True
+4,45,45,190,True,True,True,True,True,True,True
+5,58,58,170,True,True,True,True,True,True,True
+    Mission length=8,
+1,143,155,171,True,True,True,True,True,True,True
+2,93,93,157,True,True,True,True,True,True,True
+3,70,70,157,True,True,True,True,True,True,True
+4,92,92,158,True,True,True,True,True,True,True
+5,85,85,167,True,True,True,True,True,True,True
+    Mission length=10,
+1,64,66,212,True,True,True,True,True,True,True
+2,81,81,166,True,True,True,True,True,True,True
+3,118,118,177,True,True,True,True,True,True,True
+4,57,57,174,True,True,True,True,True,True,True
+5,67,67,164,True,True,True,True,True,True,True
+    Mission length=12,
+1,112,116,164,True,True,True,True,True,True,True
+2,137,137,179,True,True,True,True,True,True,True
+3,108,108,169,True,True,True,True,True,True,True
+4,110,110,177,True,True,True,True,True,True,True
+5,119,119,153,True,True,True,True,True,True,True
+    Mission length=14,
+1,119,121,159,True,True,True,True,True,True,True
+2,121,121,152,True,True,True,True,True,True,True
+3,132,132,176,True,True,True,True,True,True,True
+4,138,138,169,True,True,True,True,True,True,True
+5,135,135,173,True,True,True,True,True,True,True
+Part2,
+0-Easy,
+    Mission length=8,
+1,57,57,174,True,True,True,True,True,True,True
+2,102,98,178,True,True,True,True,True,False,True
+3,52,52,207,True,True,True,True,True,True,True
+4,99,93,184,True,True,True,True,True,False,True
+5,75,75,195,True,True,True,True,True,True,True
+    Mission length=10,
+1,84,78,159,True,True,True,True,True,False,True
+2,66,66,177,True,True,True,True,True,True,True
+3,33,33,143,True,True,True,True,True,True,True
+4,41,41,163,True,True,True,True,True,True,True
+5,115,111,172,True,True,True,True,True,False,True
+    Mission length=12,
+1,115,101,180,True,True,True,True,True,False,True
+2,117,113,181,True,True,True,True,True,False,True
+3,58,58,172,True,True,True,True,True,True,True
+4,92,88,191,True,True,True,True,True,False,True
+5,123,119,169,True,True,True,True,True,False,True
+    Mission length=14,
+1,115,107,148,True,True,True,True,True,False,True
+2,170,162,174,True,True,True,True,True,False,True
+3,85,67,167,True,True,True,True,True,False,True
+4,104,94,186,True,True,True,True,True,False,True
+5,143,139,169,True,True,True,True,True,False,True
+    Mission length=16,
+1,185,165,191,True,True,True,True,True,False,True
+2,154,146,145,True,True,True,True,True,False,True
+3,113,93,177,True,True,True,True,True,False,True
+4,146,130,167,True,True,True,True,True,False,True
+5,154,150,163,True,True,True,True,True,False,True
+    Mission length=18,
+1,163,141,222,True,True,True,True,True,False,True
+2,130,124,182,True,True,True,True,True,False,True
+3,112,98,173,True,True,True,True,True,False,True
+4,220,196,159,True,True,True,True,True,False,True
+5,173,165,174,True,True,True,True,True,False,True
+1-Medium,
+    Mission length=8,
+1,68,58,166,True,True,True,True,True,True,True
+2,68,54,160,True,True,True,True,True,False,True
+3,66,62,187,True,True,True,True,True,False,True
+4,72,68,191,True,True,True,True,True,False,True
+5,49,49,183,True,True,True,True,True,True,True
+    Mission length=10,
+1,75,65,164,True,True,True,True,True,False,True
+2,41,41,183,True,True,True,True,True,True,True
+3,120,108,185,True,True,True,True,True,False,True
+4,90,86,165,True,True,True,True,True,False,True
+5,82,76,193,True,True,True,True,True,False,True
+    Mission length=12,
+1,107,99,176,True,True,True,True,True,False,True
+2,84,70,202,True,True,True,True,True,False,True
+3,116,108,154,True,True,True,True,True,False,True
+4,85,81,165,True,True,True,True,True,False,True
+5,71,65,171,True,True,True,True,True,False,True
+    Mission length=14,
+1,133,117,187,True,True,True,True,True,False,True
+2,97,83,186,True,True,True,True,True,False,True
+3,108,98,163,True,True,True,True,True,False,True
+4,85,81,180,True,True,True,True,True,False,True
+5,74,68,156,True,True,True,True,True,False,True
+    Mission length=16,
+1,127,111,160,True,True,True,True,True,False,True
+2,119,105,161,True,True,True,True,True,False,True
+3,150,134,158,True,True,True,True,True,False,True
+4,126,118,192,True,True,True,True,True,False,True
+5,92,86,197,True,True,True,True,True,False,True
+    Mission length=18,
+1,157,139,194,True,True,True,True,True,False,True
+2,115,101,165,True,True,True,True,True,False,True
+3,172,156,162,True,True,True,True,True,False,True
+4,164,156,191,True,True,True,True,True,False,True
+5,107,101,166,True,True,True,True,True,False,True
+2-Hard,
+    Mission length=8,
+1,131,93,172,True,True,True,True,True,False,True
+2,77,67,159,True,True,True,True,True,False,True
+3,116,98,179,True,True,True,True,True,False,True
+4,98,86,162,True,True,True,True,True,False,True
+5,57,57,174,True,True,True,True,True,True,True
+    Mission length=10,
+1,109,87,190,True,True,True,True,True,False,True
+2,116,108,179,True,True,True,True,True,False,True
+3,167,143,197,True,True,True,True,True,False,True
+4,92,76,205,True,True,True,True,True,False,True
+5,88,78,181,True,True,True,True,True,False,True
+    Mission length=12,
+1,129,91,175,True,True,True,True,True,False,True
+2,184,160,172,True,True,True,True,True,False,True
+3,207,165,172,True,True,True,True,True,False,True
+4,122,106,167,True,True,True,True,True,False,True
+5,81,71,170,True,True,True,True,True,False,True
+    Mission length=14,
+1,167,123,174,True,True,True,True,True,False,True
+2,224,202,223,True,True,True,True,True,False,True
+3,255,207,236,True,True,True,True,True,False,True
+4,126,114,169,True,True,True,True,True,False,True
+5,119,109,157,True,True,True,True,True,False,True
+    Mission length=16,
+1,211,159,221,True,True,True,True,True,False,True
+2,268,242,170,True,True,True,True,True,False,True
+3,262,208,211,True,True,True,True,True,False,True
+4,158,138,165,True,True,True,True,True,False,True
+5,156,136,179,True,True,True,True,True,False,True
+    Mission length=18,
+1,185,155,191,True,True,True,True,True,False,True
+2,259,223,179,True,True,True,True,True,False,True
+3,294,240,173,True,True,True,True,True,False,True
+4,174,142,179,True,True,True,True,True,False,True
+5,141,121,172,True,True,True,True,True,False,True
